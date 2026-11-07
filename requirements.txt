@@ -1,0 +1,7 @@
+cryptography
+tk
+pycryptodome
+streamlit
+qrcode[pil]
+fpdf
+pillow

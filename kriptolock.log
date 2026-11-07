@@ -1,0 +1,41 @@
+[2025-06-22 15:00:25] [ENCRYPT] folderku/foto1.png → SUCCESS
+[2025-06-22 15:00:51] [DECRYPT] folderku/foto1.png.encrypted → SUCCESS
+[2025-06-22 15:08:26] [ENCRYPT] foto1.png → SUCCESS
+[2025-06-22 15:08:54] [DECRYPT] foto1.png.encrypted → SUCCESS
+[2025-06-22 15:08:54] [INTEGRITY] foto1.png.decrypted → MATCH
+[2025-06-22 15:10:07] [ENCRYPT] folderku/foto1.png → SUCCESS
+[2025-06-22 15:10:30] [DECRYPT] folderku/foto1.png.encrypted → SUCCESS
+[2025-06-22 15:10:30] [INTEGRITY] folderku/foto1.png.decrypted → MATCH
+[2025-06-22 15:22:23] [ENCRYPT] foto1.png → SUCCESS
+[2025-06-22 15:22:23] [DELETE] foto1.png → AUTO-SELF-DESTRUCT
+[2025-06-22 15:28:44] [ENCRYPT] foto1.png → SUCCESS
+[2025-06-22 15:28:44] [DELETE] foto1.png → AUTO-SELF-DESTRUCT
+[2025-06-22 15:28:54] [ENCRYPT] dokumen.pdf → SUCCESS
+[2025-06-22 15:28:54] [DELETE] dokumen.pdf → AUTO-SELF-DESTRUCT
+[2025-06-22 15:29:02] [ENCRYPT] catatan.txt → ERROR: [Errno 2] No such file or directory: 'catatan.txt'
+[2025-06-22 15:30:37] [ENCRYPT] dokumen.pdf → SUCCESS
+[2025-06-22 15:30:37] [DELETE] dokumen.pdf → AUTO-SELF-DESTRUCT
+[2025-06-22 15:30:47] [ENCRYPT] catatan.txt → ERROR: [Errno 2] No such file or directory: 'catatan.txt'
+[2025-06-22 15:31:22] [ENCRYPT] dokumen.pdf → SUCCESS
+[2025-06-22 15:31:22] [DELETE] dokumen.pdf → AUTO-SELF-DESTRUCT
+[2025-06-22 15:31:29] [ENCRYPT] catatan.txt → ERROR: [Errno 2] No such file or directory: 'catatan.txt'
+[2025-06-22 16:10:02] [ENCRYPT] foto1.png → ERROR: [Errno 2] No such file or directory: 'foto1.png'
+[2025-06-22 16:10:12] [ENCRYPT] dokumen.pdf → SUCCESS
+[2025-06-22 16:10:12] [DELETE] dokumen.pdf → AUTO-SELF-DESTRUCT
+[2025-06-22 17:17:46] [ENCRYPT] testdata.txt → SUCCESS
+[2025-06-22 17:17:46] [DELETE] testdata.txt → AUTO-SELF-DESTRUCT
+[2025-06-22 17:17:46] [DECRYPT] testdata.txt.encrypted → SUCCESS
+[2025-06-22 17:17:46] [INTEGRITY] testdata.txt.decrypted → MATCH
+[2025-06-22 17:24:17] [ENCRYPT] testdata.txt → SUCCESS
+[2025-06-22 17:24:17] [DELETE] testdata.txt → AUTO-SELF-DESTRUCT
+[2025-06-22 17:24:17] [DECRYPT] testdata.txt.encrypted → SUCCESS
+[2025-06-22 17:24:17] [INTEGRITY] testdata.txt.decrypted → MATCH
+[2025-06-22 17:55:37] [ENCRYPT] dokumen.pdf → SUCCESS
+[2025-06-22 17:55:37] [DELETE] dokumen.pdf → AUTO-SELF-DESTRUCT
+[2025-06-22 17:58:31] [ENCRYPT] foto1.png → SUCCESS
+[2025-06-22 17:58:31] [DELETE] foto1.png → AUTO-SELF-DESTRUCT
+[2025-06-22 18:28:08] [DECRYPT] rahasia.enc → SUCCESS
+[2025-06-22 18:28:08] [DECRYPT] rahasia.enc → ERROR: 'utf-8' codec can't decode byte 0xa6 in position 2: invalid start byte
+[2025-06-22 18:37:44] [DECRYPT] rahasia.enc → SUCCESS
+[2025-06-22 18:37:44] [INTEGRITY] foto1_baru.png → ERROR: 'utf-8' codec can't decode byte 0xa6 in position 2: invalid start byte
+[2025-06-22 18:39:58] [DECRYPT] rahasia.enc → SUCCESS

@@ -1,0 +1,124 @@
+# 🔐 KriptoLock — File Encryption Tool
+
+**KriptoLock** adalah aplikasi Python untuk mengenkripsi dan mendekripsi file pribadi secara aman menggunakan password. Dilengkapi dengan fitur hash, logging, GUI, QR backup, dan secure delete.
+
+---
+
+## 🚀 Fitur Utama
+
+- 🔐 Password-based Encryption (PBKDF2HMAC + Fernet)
+- 🗃️ Enkripsi & Dekripsi seluruh folder
+- 🧾 Log aktivitas (encrypt, decrypt, delete)
+- 🛡️ Cek integritas file dengan SHA-256
+- 🖥️ GUI (Streamlit) dengan drag & drop
+- 💥 Auto-delete file asli setelah enkripsi
+- 🔁 Batch Mode (multiple file via CLI)
+- 📦 Export password ke QR Code
+- 🧠 Secure Delete (timpa data acak sebelum hapus)
+- 📄 Export Laporan Log (HTML/PDF/PNG)
+- 🌐 Web Dashboard untuk monitoring log
+- 🧪 Unit Test terintegrasi
+- 🔏 Custom Output Name
+
+---
+
+## 🛠️ Instalasi
+
+1. **Clone repositori:**
+```bash
+git clone https://github.com/username/kriptolock.git
+cd kriptolock
+Buat virtual environment & install dependencies
+
+bash
+Copy
+Edit
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+Kalau belum ada requirements.txt, kamu bisa buat file ini:
+
+txt
+Copy
+Edit
+cryptography
+qrcode
+streamlit
+fpdf
+⚙️ Penggunaan CLI
+🔐 Enkripsi file
+bash
+Copy
+Edit
+python kriptolock.py encrypt foto1.png
+🔓 Dekripsi file
+bash
+Copy
+Edit
+python kriptolock.py decrypt foto1.png.encrypted --output hasil.png --password rahasia123
+📁 Enkripsi folder
+bash
+Copy
+Edit
+python kriptolock.py encrypt /path/to/folder
+📦 Backup password ke QR
+bash
+Copy
+Edit
+python kriptolock.py qr rahasia123
+🖥️ Jalankan GUI (Streamlit)
+bash
+Copy
+Edit
+streamlit run gui.py
+🧪 Jalankan Unit Test
+bash
+Copy
+Edit
+python test_kriptolock.py
+📄 Laporan Log
+Log disimpan di kriptolock.log
+
+Export ke log_report.html atau PDF dengan export_log.py
+
+📂 Struktur Folder
+lua
+Copy
+Edit
+kriptolock/
+├── kriptolock.py
+├── gui.py
+├── export_log.py
+├── test_kriptolock.py
+├── kriptolock.log
+├── backup_password_qr.png
+└── README.md
+📜 Lisensi
+Lisensi: MIT — silakan gunakan, modifikasi, dan distribusikan.
+
+🙌 Kontribusi
+Pull request dan masukan sangat diterima! 🚀
+
+👤 Pembuat
+@h4x00r — GitHub
+
+yaml
+Copy
+Edit
+
+---
+
+## 📝 Langkah Terakhir:
+
+1. Simpan file di root folder:
+kriptolock/README.md
+
+sql
+Copy
+Edit
+
+2. Commit dan push ke GitHub:
+```bash
+git add README.md
+git commit -m "add complete README"
+git push origin main
